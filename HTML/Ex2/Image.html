@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Image-->
+    <h3>Trường hợp ảnh đặt cùng thư mục với file html</h3>
+    <img src="hehe.jpg" alt="Cái này là nếu ko tìm thấy ảnh nó sẽ hiện cái thông báo này lên" width="100" height="auto">
+
+    <h3>Trường hợp ảnh nằm trong thư mục</h3>
+    <img src="Picture/hehe.jpg" alt="Như bên trên nha bô" style="width:100px;height:auto">
+
+    <h3>Trường hợp ảnh được liên kết từ sever, website khác</h3>
+    <img src="https://www.dl.dropboxusercontent.com/s/tsy249ore8fnjzm/lake-4697441_1280.jpg?dl=0" alt="Như bên trên nha bô" style="width:100px;height:auto">
+        
+    <h3>Hình ảnh được gắn vào một link, khi click vào hình ảnh sẽ được chuyển tới link được khai báo</h3>
+    <a href="https://www.facebook.com/"><img src="Picture/hehe.jpg" alt="Như bên trên nha bô" style="width:100px;height:auto"></a><br>
+    <!--Media, Video, Audio-->
+    <video width="320" height="240" autoplay controls>
+        <source src="mylivewallpapers-com-KaiSa-Butterflies.mp4" type="video/mp4">
+        <source src="mylivewallpapers-com-KaiSa-Butterflies.ogg" type="video/ogg">
+    Nếu ko trình duyệt ko hỗ trợ chạy video sẽ hiện thông báo này
+    </video><br>
+
+    <audio controls>
+        <source src="Nhúng link file audio vô đây nha bô" type="audio/ogg">
+        <source src="Nhúng link file audio vô đây nha bô" type="audio/mpeg">
+        Nếu ko trình duyệt ko hỗ trợ chạy video sẽ hiện thông báo này
+    </audio><br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ScEcXMI_69s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
